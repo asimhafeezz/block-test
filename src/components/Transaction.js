@@ -11,10 +11,12 @@ const SendTransaction = () => {
 	// useMetaMask hook
 	const { transaction } = useMetamask()
 
+	// address change handler
 	const handleToAddressChange = e => {
 		setToAddress(e.target.value)
 	}
 
+	// balance change handler
 	const handleBalanceChange = e => {
 		setBalance(e.target.value)
 	}
