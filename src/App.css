@@ -1,0 +1,72 @@
+.App {
+	text-align: center;
+}
+
+div {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	font-size: 16px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+h3 {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.status {
+	color: #c2661b;
+}
+
+.blue-color {
+	color: #007bff;
+}
+
+.green-color {
+	color: #28a745;
+}
+
+.heading {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #007bff;
+}
